@@ -6,7 +6,7 @@ local AimPart = "HumanoidRootPart"
 
 local Tool = Instance.new("Tool")
 Tool.RequiresHandle = false
-Tool.Name = "gay lock"
+Tool.Name = "Void lock"
 
 
 local Camera = game:GetService("Workspace").CurrentCamera
@@ -99,3 +99,4 @@ mt.__namecall = newcclosure(function(...)
 end)
 
 Tool.Parent = game.Players.LocalPlayer.Backpack
+end)
